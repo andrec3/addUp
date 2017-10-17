@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BC6B2E71F9699E600B885A1 /* addUpLogo_v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6B2E61F9699E600B885A1 /* addUpLogo_v1.png */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BC6B2E61F9699E600B885A1 /* addUpLogo_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addUpLogo_v1.png; path = Images/misc/addUpLogo_v1.png; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BC6B2E51F9699C300B885A1 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				9BC6B2E61F9699E600B885A1 /* addUpLogo_v1.png */,
+			);
+			name = misc;
+			sourceTree = "<group>";
+		};
 		9D4DEC3F1D6DDE37001490B9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9BC6B2E51F9699C300B885A1 /* misc */,
 				9DC593451D787D9C00D65655 /* icons */,
 			);
 			name = Images;
@@ -157,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC6B2E71F9699E600B885A1 /* addUpLogo_v1.png in Resources */,
 				9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
